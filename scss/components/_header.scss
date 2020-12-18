@@ -1,0 +1,43 @@
+.header {
+    background: $color-black;
+    padding: 7px 0;
+    &__content {
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__item {
+        padding: 0 20px;
+    }
+    &__link {
+        position: relative;
+        font-size: 17px;
+        line-height: 27px;
+        color: $color-white;
+        font-weight: 300;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 3px;
+            background-color: $color-blue;
+            transition: 0.3s;
+            bottom:-16px;
+        }
+        &:hover::before {
+            width: 100%;
+            transition: 0.3s;
+        }
+    }
+    &__btn {
+        width: 185px;
+        height: 44px;
+        font-size: 17px;
+        line-height: 27px;
+        font-weight: 400;
+    }
+    &__icon {
+        width: 22px;
+        height: 22px;
+        fill: $color-white;
+    }
+}

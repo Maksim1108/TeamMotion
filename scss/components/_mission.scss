@@ -1,0 +1,35 @@
+.mission {
+    padding: 126px 0 80px 0;
+    &__content {
+        width: 100%;
+        height: 132px;
+        border-radius: 10px;
+        background: $mission-bg;
+        @include flex-center(space-around);
+    }
+    &__title {
+        position: relative;
+        max-width: 222px;
+        font-size: 19px;
+        line-height: 28px;
+        color: $color-black;
+        font-weight: 700;
+        text-transform: uppercase;
+        &::before {
+            position: absolute;
+            content: "";
+            background: url(../images/mission/bracket.svg) no-repeat;
+            width: 25px;
+            height: 95px;
+            top: -20px;
+            left:250px;
+        }
+    }
+    &__desc {
+        max-width: 738px;
+        font-size: 18px;
+        line-height: 30px;
+        color: $color-black;
+        font-weight: 500;
+    }
+}
