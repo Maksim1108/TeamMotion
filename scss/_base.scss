@@ -2,7 +2,9 @@
 	max-width: 1140px;
 	margin: 0 auto;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
