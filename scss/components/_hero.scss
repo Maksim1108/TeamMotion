@@ -1,10 +1,7 @@
 .hero {
-    height: 912px;
+    padding: 36px 0 55px 0;
     background:url(../images/hero/hero-bg.jpg) no-repeat center;
     background-size: cover;
-    &__logo {
-        padding-top: 36px;
-    }
     &__title {
         max-width: 505px;
         font-size: 38px;
@@ -63,11 +60,49 @@
         color: $color-white;
         font-weight: 500;
     }
-    // &__check {
-    //     width: 26px;
-    //     height: 26px;
-    //     border-radius: 13px;
-    //     filter: drop-shadow(0px 13px 16px rgba(103,103,103,0.05));
-    //     background-color: $color-white;
-    // }
+    &__col {
+        margin-top: 300px;
+    }
+    &__suptitle {
+        position: relative;
+        margin-left: 70px;
+        font-size: 19px;
+        line-height: 42px;
+        color: $color-gray;
+        font-weight: 700;
+        &::before {
+            position: absolute;
+            content: '';
+            background: url(../images/hero/hero-hand.svg) no-repeat;
+            width: 36px;
+            height: 32px;
+            left: -50px;
+            top: 6px;
+        }
+        &.is-active {
+            position: relative;
+            color:$color-blue;
+            &::before {
+                background: url(../images/hero/hero-handBlue.svg) no-repeat;
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                border: 1px solid $color-blue;
+                width: 100%;
+                left: 0;
+                bottom: 10px;
+                opacity: 0.1;
+            }
+        }
+    }
+    &__list {
+        padding: 20px 0 0 70px;
+    }
+    &__item {
+        font-size: 16px;
+        line-height: 38px;
+        color: $color-black;
+        font-weight: 300;
+    }
 }

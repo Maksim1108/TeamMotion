@@ -52,9 +52,9 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
-            <div class="hero__content">
+            <div class="hero__content row">
                 <div class="col-6">
                     <img src="./images/hero/hero-logo.png" alt="logo" class="hero__logo">
                     <h1 class="hero__title">Хватит тянуть бизнес,  который отбирает Ваше  время, силы и деньги!</h1>
@@ -64,11 +64,28 @@
                         <input placeholder="Телефон" type="text" class="hero__input">
                         <input placeholder="E-mail" type="text" class="hero__input">
                         <button class="hero__btn btnBlue">Отправить заявку</button>
-                        <!-- <input class="hero__check" type="checkbox"> -->
+                        <!-- <label class="hero__label" for="checkbox">
+                            <input class="hero__check" type="checkbox">
+                        </label> -->
                     </form>
                 </div>
-                <div class="col-6">
-
+                <div class="col-6 hero__col">
+                    <span class="hero__suptitle">Преследуют Вас эти вопросы?</span>
+                    <span class="hero__suptitle is-active">Видите Вы эти ситуации в компании?</span>
+                    <ol class="hero__list">
+                        <li class="hero__item">Клиенты уходят один за другим</li>
+                        <li class="hero__item">Приходится постоянно заниматься снижением 
+                          <br>  издержек, а сокращать уже нечего</li>
+                        <li class="hero__item">Бизнес держится только на мне. Работаю 24/7</li>
+                        <li class="hero__item">Топ-команда работает как «лебедь, рак и щука»</li>
+                        <li class="hero__item">Будущее компании представляется в мрачных красках</li>
+                        <li class="hero__item">Постоянно что-то меняем
+                            <br>  в компании, а результаты «замерзли»</li>
+                        <li class="hero__item">Постоянно обсуждаем необходимость 
+                            <br>  серьезных изменений и ничего не меняется</li>
+                        <li class="hero__item">С денежными поступлениями то густо, то пусто</span></li>
+                        <li class="hero__item">Ощущение стагнации в бизнесе</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -92,14 +109,7 @@
                     <h3 class="conception__title">Концепция «TeamMotion»</h3>
                     <img class="conception__logo" src="./images/conception/logo.svg" alt="">
                     <ol class="conception__list">
-                        <li class="conception__item">Каждый бизнес идеально организован для достижения тех 
-                            результатов, которые он имеет, независимо от того, плохие 
-                            они или хорошие.</li>
-                        <li class="conception__item"></li>
-                        <li class="conception__item"></li>
-                        <li class="conception__item"></li>
-                        <li class="conception__item"></li>
-                        <li class="conception__item"></li>
+                        
                     </ol>
                 </div>
                 <div class="col-5">
@@ -416,7 +426,7 @@
         </div>
     </section>
 
-    <section class="location">
+    <!-- <section class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.3894003228334!2d37.67221321593183!3d55.78647598056241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53584abae26df%3A0xe02cb5572fbf3892!2z0JzQsNC70LXQvdC60L7QstGB0LrQsNGPINGD0LsuLCAzMiDRgdGC0YDQvtC10L3QuNC1IDMsINGN0YLQsNC2IDEsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMDcxMTM!5e0!3m2!1sru!2skg!4v1608363821329!5m2!1sru!2skg" width="100%" height="598" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="true" tabindex="0"></iframe>
         <img class="location__marker" src="./images/location/location.png" alt="">
         <div class="container">
@@ -436,15 +446,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__content">
-                <p class="footer__copyrigt"></p>
-                <span  class="footer__phone"></span>
-                <img src="" alt="" class="footer__logo">
-                <a href="#header" class="footer__btn"></a>
+            <div class="footer__content row">
+                <p class="footer__copyright">© TEAMMOTION. Все права защищены. 2020 г. <span>Политика конфиденциальности</span></p>
+                <span  class="footer__phone">+7 (495) 867 95 03</span>
+                <img src="./images/footer/footer-logo.png" alt="" class="footer__logo">
+                <a href="#hero" class="footer__btn"></a>
             </div>
         </div>
     </footer>

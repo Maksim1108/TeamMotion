@@ -1,3 +1,44 @@
 .footer {
-    background: $color-black;
+    background: #000000;
+    &__content {
+        position: relative;
+        @include flex-center (space-between);
+    }
+    &__copyright {
+        max-width: 285px;
+        font-size: 12px;
+        color: #727272;
+        font-weight: 300;
+        span {
+            text-decoration: underline;
+        }
+    }
+    &__phone {
+        font-size: 17px;
+        line-height: 27px;
+        color: $color-white;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    &__logo {
+        padding: 23px 0;
+    }
+    &__btn {
+        position: absolute;
+        width: 59px;
+        height: 59px;
+        border-radius: 29px;
+        filter: drop-shadow(0px 17px 25.5px rgba(0,113,227,0.43));
+        background-color: $color-blue;
+        top: -30px;
+        right: -100px;
+        &::before {
+            position: absolute;
+            content: '';
+            background: url(../images/footer/footer-arrow.svg) no-repeat;
+            width: 31px;
+            height: 16px;
+            @include form-center;
+        }
+    }
 }
