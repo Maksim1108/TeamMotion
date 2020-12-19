@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="icon" href="./favicon.jpg">
     <title>TeamMotion</title>
 </head>
@@ -269,6 +270,79 @@
         </div>
     </section>
 
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__content">
+                <h3 class="reviews__title">Отзывы</h3>
+                <div class="reviews__slider row">
+                    <div class="reviews__item">
+                        <img src="./images/reviews/avatar-1.png" alt="" class="reviews__avatar">
+                        <span class="reviews__name">Ирина Головченко</span>
+                        <p class="reviews__specialty">Генеральный директор компании 
+                            «Валта Пет продактс»</p>
+                        <p class="reviews__desc">С Александром мы работаем с 2006 года. Много было 
+                            пережито вместе, пройдено несколько стратегических 
+                            витков и революционных изменений. Это наставник, 
+                            ментор, который способен помочь из хаоса мыслей 
+                            собственников и топ-менеджеров создать стройную 
+                            эффективную стратегию. </p>
+                        <span class="reviews__link">Читать отзыв полностью</span>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./images/reviews/avatar-2.png" alt="" class="reviews__avatar">
+                        <span class="reviews__name">Миро Накисен</span>
+                        <p class="reviews__specialty">Совладелец и партнер <br> 
+                            компании Office Solutions</p>
+                        <p class="reviews__desc">За последних 15 лет Александр Тимошин помог мне 
+                            преодолеть множество разных вызовов в несколько 
+                            компаниях, в которых я выступал как владелец и в ряде 
+                            случаев как владелец и руководитель. Эта помощь 
+                            заключалась в проведении стратегических сессий 
+                            по разработке бизнес-планов, формированию...</p>
+                        <span class="reviews__link">Читать отзыв полностью</span>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./images/reviews/avatar-1.png" alt="" class="reviews__avatar">
+                        <span class="reviews__name">Ирина Головченко</span>
+                        <p class="reviews__specialty">Генеральный директор компании 
+                            «Валта Пет продактс»</p>
+                        <p class="reviews__desc">С Александром мы работаем с 2006 года. Много было 
+                            пережито вместе, пройдено несколько стратегических 
+                            витков и революционных изменений. Это наставник, 
+                            ментор, который способен помочь из хаоса мыслей 
+                            собственников и топ-менеджеров создать стройную 
+                            эффективную стратегию. </p>
+                        <span class="reviews__link">Читать отзыв полностью</span>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./images/reviews/avatar-2.png" alt="" class="reviews__avatar">
+                        <span class="reviews__name">Миро Накисен</span>
+                        <p class="reviews__specialty">Совладелец и партнер <br> 
+                            компании Office Solutions</p>
+                        <p class="reviews__desc">За последних 15 лет Александр Тимошин помог мне 
+                            преодолеть множество разных вызовов в несколько 
+                            компаниях, в которых я выступал как владелец и в ряде 
+                            случаев как владелец и руководитель. Эта помощь 
+                            заключалась в проведении стратегических сессий 
+                            по разработке бизнес-планов, формированию...</p>
+                        <span class="reviews__link">Читать отзыв полностью</span>
+                    </div>
+                </div>
+                <button class="reviews__btn btn__transparent">Все отзывы</button>
+            </div>
+        </div>
+    </section>
+
     <script src="./js/index.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script>
+        $('.reviews__slider').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        });
+    </script>
 </body>
 </html>
