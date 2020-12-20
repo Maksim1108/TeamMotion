@@ -102,17 +102,61 @@
     &__result {
         position: relative;
         margin-top: 30px;
+        padding-top: 30px;
         width: 100%;
-        height: 77px;
         border-radius: 3px;
         background: $color-white;
+        cursor: pointer;
+        // &::before {
+        //     position: absolute;
+        //     content:'';
+        //     background: url(../images/process/flag.svg) no-repeat;
+        //     opacity: 0.1;
+        //     width: 300px;
+        //     height: 300px;
+        //     left: 0px;
+        //     top: 0px;
+        //     z-index: 1000;
+        // }
+        &::after {
+            position: absolute;
+            content:'';
+            border-left: 1px solid $color-blue;
+            height: 90px;
+            right: 169px;
+            top: -49px;
+        }
+        &.active{
+            .result__title{
+                color: $color-black;
+                text-decoration: none;
+            }
+        }
+    }
+    &__list {
+        &.active {
+            display: block;
+        }
+    }
+    &__item {
+        font-size: 16px;
+        line-height: 35px;
+        color: #120f10;
+        font-weight: 400;
+        list-style-type: circle;
+    }
+}
+
+.result {
+    &__title {
+        position: relative;
+        text-align: center;
         font-size: 19px;
         line-height: 25px;
         color: $color-blue;
         font-weight: 600;
-        @include flex-center;
         text-decoration: underline;
-        cursor: pointer;
+        padding-bottom: 30px;
         &::before {
             position: absolute;
             content:'';
@@ -122,13 +166,16 @@
             transform: rotate(180deg);
             right: 170px;
         }
-        &::after {
-            position: absolute;
-            content:'';
-            border-left: 1px solid $color-blue;
-            height: 90px;
-            right: 169px;
-            top: -49px;
+    }
+    &__inner {
+        position: absolute;
+        display: none;
+        justify-content: center;
+        width: 100%;
+        background: $color-white;
+        padding-bottom: 36px ;
+        &.active {
+            display: flex;
         }
     }
 }

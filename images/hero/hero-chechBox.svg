@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 92" width="92" height="92">
+	<defs>
+		<image width="1024" height="752" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDc1MiIgd2lkdGg9IjEwMjQiIGhlaWdodD0iNzUyIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTAyNCAwTDEwMjQgNzUyTDAgNzUyWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICMwMDAwMDAgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0xMDA5IDE0Ljk5Qzk4OS4wMSAtNS4wMSA5NTYuNTkgLTUuMDEgOTM2LjYgMTQuOTlMMzIzLjE5IDYyOC40TDg3LjQgMzkyLjYyQzY3LjQxIDM3Mi42MiAzNC45OSAzNzIuNjMgMTUgMzkyLjYyQy01IDQxMi42MSAtNSA0NDUuMDMgMTUgNDY1LjAzTDI4Ni45OCA3MzcuMDFDMzA2Ljk3IDc1NyAzMzkuNDEgNzU2Ljk5IDM1OS4zOSA3MzcuMDFMMTAwOSA4Ny40QzEwMjkgNjcuNCAxMDI5IDM0Ljk5IDEwMDkgMTQuOTlaIiAvPgoJPC9nPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="1">
+		<g id="форма">
+			<g id="форма">
+				<g id="сог">
+					<g id="Folder 1">
+						<path id="Ellipse 1009" class="shp0" d="M46 20C53.18 20 59 25.82 59 33C59 40.18 53.18 46 46 46C38.82 46 33 40.18 33 33C33 25.82 38.82 20 46 20Z" />
+						<use id="Vector Smart Object" style="opacity: 0.471" href="#img1" transform="matrix(0.027,0,0,0.029,39,28)"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

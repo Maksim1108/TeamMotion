@@ -2,7 +2,6 @@
     background: $color-black;
     padding: 7px 0;
     position: sticky;
-    opacity: 0.9;
     top: 0;
     z-index: 10;
     &__content {
@@ -12,12 +11,44 @@
     &__item {
         padding: 0 20px;
     }
+    &__dropdown {
+        position: absolute;
+        box-sizing: border-box;
+        display: none;
+        padding: 20px 0 0 33px;
+        width: 184px;
+        height: 161px;
+        filter: drop-shadow(0px 23px 47.5px rgba(35,31,32,0.21));
+        background-color: $color-white;
+        top: 43px;
+        &.active {
+            display: block;
+        }
+    }
+    .dropdown {
+        &__item {
+            font-size: 17px;
+            line-height: 40px;
+            color: $color-black;
+            font-weight: 300;;
+            &:hover {
+                color: $color-blue;
+            }
+        }
+    }
     &__link {
         position: relative;
         font-size: 17px;
         line-height: 27px;
         color: $color-white;
         font-weight: 300;
+        // &:hover{
+        //     &:first-child{
+        //         .header__dropdown {
+        //             display: block;
+        //         }
+        //     }
+        // }
         &::before {
             position: absolute;
             content: '';

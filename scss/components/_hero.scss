@@ -60,6 +60,27 @@
         color: $color-white;
         font-weight: 500;
     }
+    &__label {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 26px;
+            height: 26px;
+            background: url(../images/hero/circle.svg) no-repeat center;
+            background-size: cover;
+        }
+    }
+    &__check {
+        display: none;
+        &:checked {
+            +.hero__label {
+                &::before {
+                    background: url(../images/hero/hero-chechBox.svg) no-repeat center;
+                }
+            }
+        }
+    }
     &__col {
         margin-top: 300px;
     }
@@ -104,5 +125,17 @@
         line-height: 38px;
         color: $color-black;
         font-weight: 300;
+        &::marker {
+            font-size: 16px;
+            line-height: 38px;
+            color: $color-blue;
+            font-weight: 300;
+            text-align: center;
+            // width: 29px;
+            // height: 29px;
+            // border-radius: 15px;
+            // background-color: rgba(231,243,255,0);
+            // border: 2px solid rgba(0,113,227,0.1);
+        }
     }
 }
