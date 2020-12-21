@@ -184,27 +184,27 @@ input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: none;
-  padding: 20px 0 0 33px;
+  padding-left: 33px;
   width: 184px;
   height: 161px;
   -webkit-filter: drop-shadow(0px 23px 47.5px rgba(35, 31, 32, 0.21));
           filter: drop-shadow(0px 23px 47.5px rgba(35, 31, 32, 0.21));
   background-color: #fff;
-  top: 43px;
+  top: 51px;
 }
 
 .header__dropdown.active {
   display: block;
 }
 
-.header .dropdown__item {
+.header .dropdown__link {
   font-size: 17px;
   line-height: 40px;
   color: #120f10;
   font-weight: 300;
 }
 
-.header .dropdown__item:hover {
+.header .dropdown__link:hover {
   color: #0071e3;
 }
 
@@ -314,7 +314,7 @@ input {
 
 .hero {
   padding: 86px 0 55px 0;
-  background: url(../images/hero/hero-bg.jpg) no-repeat center;
+  background: url(../images/hero/hero-bg.webp) no-repeat center;
   background-size: cover;
 }
 
