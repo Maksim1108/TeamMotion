@@ -1,10 +1,8 @@
 .header {
     background: $color-black;
     padding: 7px 0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
     &__content {
+        position: relative;
         justify-content: space-between;
         align-items:center;
     }
@@ -74,5 +72,31 @@
         width: 22px;
         height: 22px;
         fill: $color-white;
+        cursor: pointer;
+        z-index: 100;
+    }
+    &__search {
+        display: none;
+        position: absolute;
+        width: 378px;
+        height: 58px;
+        background-color: #232021;
+        font-size: 17px;
+        color: $color-white;
+        font-weight: 300;
+        right: -12px;
+        padding-left: 23px;
+        box-sizing:border-box;
+        &::placeholder {
+            font-size: 17px;
+            line-height: 27px;
+            color: $color-white;
+            font-weight: 300;
+            opacity: 0.6;
+            user-select: none;
+        }
+        &.active {
+            display: block;
+        }
     }
 }

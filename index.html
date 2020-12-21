@@ -18,12 +18,15 @@
                 <a href="#"><img src="./images/header/logo.png" alt="logo" class="header__logo"></a>
                 <nav class="header__nav">
                     <ul class="header__menu row">
-                        <li class="header__item"><a href="#" class="header__link">О нас <ul class="header__dropdown dropdown">
-                            <li class="dropdown__item">Команда</li>
-                            <li class="dropdown__item">О компании</li>
-                            <li class="dropdown__item">Вакансии</li>
-                        </ul>
-                        </a></li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">О нас 
+                                <ul class="header__dropdown dropdown">
+                                    <li class="dropdown__item">Команда</li>
+                                    <li class="dropdown__item">О компании</li>
+                                    <li class="dropdown__item">Вакансии</li>
+                                </ul>
+                            </a>
+                        </li>
                         <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
                         <li class="header__item"><a href="#" class="header__link">Формат работы</a></li>
                         <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
@@ -53,6 +56,7 @@
                 	c-4.3140869,0-7.8236084-3.5401611-7.8236084-7.8919067c0-4.3516846,3.5095215-7.8918457,7.8236084-7.8918457
                 	s7.8235474,3.5401611,7.8235474,7.8918457C16.4707031,13.0742798,12.9608154,16.6144409,8.6471558,16.6144409z" />
                 </svg>
+                <input placeholder="поиск" class="header__search" type="text">
             </div>
         </div>
     </header>
@@ -193,31 +197,145 @@
     <section class="services">
         <div class="container">
             <div class="services__content">
-                <h3 class="services__title"></h3>
+                <h3 class="services__title">Основные услуги</h3>
                 <div class="services__row row">
                     <div class="col-8 services__circles">
-                        <div class="services__circle">
-                            <span class="services__text"></span>
+                        <div class="services__circle" id="circle-1">
+                            <span class="services__text">Стратегический <br>
+                                анализ бизнеса</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
                         </div>
-                        <div class="services__circle">
-                            <span class="services__text"></span>
+                        <div class="services__circle" id="circle-2">
+                            <span class="services__text">Разработка <br>
+                                стратегии</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
                         </div>
-                        <div class="services__circle">
-                            <span class="services__text"></span>
+                        <div class="services__circle" id="circle-3">
+                            <span class="services__text">Реализация <br>
+                                стратегии</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
                         </div>
-                        <div class="services__circle">
-                            <span class="services__text"></span>
+                        <div class="services__circle" id="circle-4">
+                            <span class="services__text">Стратегия
+                                продвижения
+                                компании во вне</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
                         </div>
-                        <div class="services__circle">
-                            <span class="services__text"></span>
+                        <div class="services__circle" id="circle-5">
+                            <span class="services__text">Миссия, Видение,
+                                стратегические цели</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
+                        </div>
+                        <button class="services__btn btn__transparent">Жизнеспособность бизнеса</button>
+                    </div>
+                    <div class="col-4">
+                        <div class="services__info info" id="infoBlock-1">
+                            <ul class="info__list">
+                                <li class="info__item">SWOT-анализ</li>
+                                <li class="info__item">Анализ заинтересованных сторон</li>
+                                <li class="info__item">OPmodel организации</li>
+                                <li class="info__item">Сравнительный маркетинг-
+                                    анализ компании и основных 
+                                    конкурентов
+                                    </li>
+                                <li class="info__item">Сравнительный 
+                                    Digital-анализ сайта компании 
+                                    и ее основных конкурентов</li>
+                                <li class="info__item">Анализ продуктов компании 
+                                    и ценности, создаваемой 
+                                    для клиентов</li>
+                            </ul>
+                            <button class="info__btn btnBlue">Начать работу</button>
+                            <img src="./images/services/info-img1.png" alt="" class="services__img">
+                        </div>
+                        <div class="services__info info" id="infoBlock-2">
+                            <ul class="info__list">
+                                <li class="info__item">Описание ключевых продуктов 
+                                    (характеристики и решаемые 
+                                    проблемы) </li>
+                                <li class="info__item">Определение ключевых 
+                                    сегментов рынка 
+                                    (сегментирование рынка)</li>
+                                <li class="info__item">Формулирование 
+                                    конкурентных преимуществ
+                                    </li>
+                                <li class="info__item">Определение позиционирование 
+                                    компании (ключевая идея 
+                                    позиционирования)
+                                    </li>
+                                <li class="info__item">Определение 
+                                    стратегических задач
+                                    </li>
+                            </ul>
+                            <button class="info__btn btnBlue">Начать работу</button>
+                            <img src="./images/services/info-img2.png" alt="" class="services__img">
+                        </div>
+                        <div class="services__info info" id="infoBlock-3">
+                            <ul class="info__list">
+                                <li class="info__item">Построение дерева целей 
+                                    (компания-ключевые 
+                                    подразделения)</li>
+                                <li class="info__item">Определение первоочередных 
+                                    задач по внедрению стратегии </li>
+                                <li class="info__item">Подготовка топ-менеджмента 
+                                    к внедрению изменений</li>
+                                <li class="info__item">Развитие лидерских 
+                                    качеств в топ-команде
+                                    </li>
+                                <li class="info__item">Анализ препятствий, возникающих 
+                                    при внедрении стратегии</li>
+                                <li class="info__item">Развитие компетенций в продажах, 
+                                    соответствующих новой стратегии
+                                    и позиционированию компании
+                                    </li>
+                            </ul>
+                            <button class="info__btn btnBlue">Начать работу</button>
+                            <img src="./images/services/info-img3.png" alt="" class="services__img">
+                        </div>
+                        <div class="services__info info" id="infoBlock-4">
+                            <ul class="info__list">
+                                <li class="info__item">Разработка сайта/отдельных 
+                                    страниц Landing Page 
+                                    (содержание в соответствии 
+                                    со стратегией)</li>
+                                <li class="info__item">Продвижение <br>
+                                    в социальных сетях (SMM)</li>
+                                <li class="info__item">Продвижение контекстной 
+                                    рекламой (Яндекс.Директ 
+                                    и GoogleAds)</li>
+                                <li class="info__item">Продвижение в поисковых 
+                                    системах (SEO) 
+                                    </li>
+                                <li class="info__item">Репутационный <br>
+                                    маркетинг (SERM)
+                                    </li>
+                            </ul>
+                            <button class="info__btn btnBlue">Начать работу</button>
+                            <img src="./images/services/info-img4.png" alt="" class="services__img">
+                        </div>
+                        <div class="services__info info" id="infoBlock-5">
+                            <ul class="info__list">
+                                <li class="info__item">Разработка сайта/отдельных 
+                                    страниц Landing Page 
+                                    (содержание в соответствии 
+                                    со стратегией)
+                                    </li>
+                                <li class="info__item">Продвижение 
+                                    в социальных сетях (SMM)</li>
+                                <li class="info__item">Продвижение контекстной 
+                                    рекламой (Яндекс.Директ 
+                                    и GoogleAds)</li>
+                                <li class="info__item">Продвижение в поисковых 
+                                    системах (SEO)                                     
+                                    </li>
+                                <li class="info__item">Репутационный <br> 
+                                    маркетинг (SERM)
+                                    </li>
+                            </ul>
+                            <button class="info__btn btnBlue">Начать работу</button>
+                            <img src="./images/services/info-img5.png" alt="" class="services__img">
                         </div>
                     </div>
-                    <div class="col-4"></div>
                 </div>
             </div>
         </div>
@@ -508,6 +626,7 @@
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="./js/stickyHeader.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
 

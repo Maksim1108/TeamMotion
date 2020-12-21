@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 407" width="520" height="407">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0071e3 } 
+	</style>
+	<g id="4">
+		<g id="5">
+			<g id="Folder 4">
+				<path id="Rectangle 525" class="shp0" d="M499 0L520 0L520 1L499 1L499 0Z" />
+				<path id="Rectangle 525 copy 4" class="shp0" d="M0 406L143 406L143 407L0 407L0 406Z" />
+				<path id="Rectangle 525 copy 6" class="shp0" d="M143 345L144 345L144 407L143 407L143 345Z" />
+				<path id="Rectangle 525 copy 5" class="shp0" d="M143 344L499 344L499 345L143 345L143 344Z" />
+				<path id="Rectangle 525 copy 3" class="shp0" d="M499 1L500 1L500 345L499 345L499 1Z" />
+			</g>
+		</g>
+	</g>
+</svg>
