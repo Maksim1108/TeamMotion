@@ -14,12 +14,41 @@
         line-height: 27px;
         color: $color-blue;
         font-weight: 300;
-        list-style-type: decimal-leading-zero;
+        list-style-type: none;
     }
-    // &__item {
-    //     font-size: 17px;
-    //     line-height: 27px;
-    //     color: $color-black;
-    //     font-weight: 300;
-    // }
+    &__item {
+        max-width: 540px;
+        position: relative;
+        padding: 0 0 40px 70px;
+        font-size: 17px;
+        line-height: 27px;
+        color: $color-black;
+        font-weight: 300;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 588px;
+            height: 1px;
+            background-color: #000000;
+            opacity: 0.1;
+            top: -25px;
+        }
+        &:first-child::before {
+            display: none;
+        }
+    }
+    &__numbering {
+        position: absolute;
+        font-size: 33px;
+        line-height: 27px;
+        color: $color-blue;
+        font-weight: 300;
+        left: 0;
+        top: 6px;
+    }
+    &__img {
+        margin: 50px 0 0 -65px;
+        min-width: 700px;
+        min-height: 800px;
+    }
 }

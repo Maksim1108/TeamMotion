@@ -167,9 +167,6 @@
     &__list {
         padding: 55px 0 0 50px;
         list-style-type:unset;
-        &::marker {
-            background: $color-blue;
-        }
     }
     &__item {
         max-width: 290px;
@@ -177,9 +174,8 @@
         font-size: 16px;
         color: $color-black;
         font-weight: 300;
-        font-family: "Montserrat";
         &::marker {
-            background: $color-blue;
+            color: $color-blue;
         }
     }
     &__btn {
@@ -192,7 +188,7 @@
         font-weight: 500;
     }
 }
-
+#circle-1,
 #circle-2,
 #circle-3,
 #circle-4,

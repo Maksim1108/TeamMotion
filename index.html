@@ -59,6 +59,25 @@
                 <input placeholder="поиск" class="header__search" type="text">
             </div>
         </div>
+        <div class="header__connection">
+            <form action="" class="header__form form">
+                <h3 class="form__title">Обратная связь</h3>
+                <h4 class="form__subtitle">Заполните поля формы и мы свяжемся <br>
+                    с вами в ближайшее время</h4>
+                <img class="form__close" src="./images/header/form-x.svg" alt="">
+                <div class="form__inputs row">
+                    <div class="col-6">
+                        <input placeholder="Имя" type="text" class="form__input">
+                        <input placeholder="Телефон" type="text" class="form__input">
+                        <input placeholder="E-mail" type="text" class="form__input">
+                    </div>
+                    <div class="col-6">
+                        <textarea placeholder="Cообщение" class="form__textarea"></textarea>
+                    </div>
+                    <button class="form__btn btnBlue">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
     </header>
 
     <section class="hero" id="hero">
@@ -82,18 +101,18 @@
                     <span class="hero__suptitle">Преследуют Вас эти вопросы?</span>
                     <span class="hero__suptitle is-active">Видите Вы эти ситуации в компании?</span>
                     <ol class="hero__list">
-                        <li class="hero__item">Клиенты уходят один за другим</li>
-                        <li class="hero__item">Приходится постоянно заниматься снижением 
+                        <li class="hero__item"><span class="hero__numbering">1</span>Клиенты уходят один за другим</li>
+                        <li class="hero__item"><span class="hero__numbering">2</span>Приходится постоянно заниматься снижением 
                           <br>  издержек, а сокращать уже нечего</li>
-                        <li class="hero__item">Бизнес держится только на мне. Работаю 24/7</li>
-                        <li class="hero__item">Топ-команда работает как «лебедь, рак и щука»</li>
-                        <li class="hero__item">Будущее компании представляется в мрачных красках</li>
-                        <li class="hero__item">Постоянно что-то меняем
+                        <li class="hero__item"><span class="hero__numbering">3</span>Бизнес держится только на мне. Работаю 24/7</li>
+                        <li class="hero__item"><span class="hero__numbering">4</span>Топ-команда работает как «лебедь, рак и щука»</li>
+                        <li class="hero__item"><span class="hero__numbering">5</span>Будущее компании представляется в мрачных красках</li>
+                        <li class="hero__item"><span class="hero__numbering">6</span>Постоянно что-то меняем
                             <br>  в компании, а результаты «замерзли»</li>
-                        <li class="hero__item">Постоянно обсуждаем необходимость 
+                        <li class="hero__item"><span class="hero__numbering">7</span>Постоянно обсуждаем необходимость 
                             <br>  серьезных изменений и ничего не меняется</li>
-                        <li class="hero__item">С денежными поступлениями то густо, то пусто</span></li>
-                        <li class="hero__item">Ощущение стагнации в бизнесе</li>
+                        <li class="hero__item"><span class="hero__numbering">8</span>С денежными поступлениями то густо, то пусто</span></li>
+                        <li class="hero__item"><span class="hero__numbering">9</span>Ощущение стагнации в бизнесе</li>
                     </ol>
                 </div>
             </div>
@@ -118,11 +137,25 @@
                     <h3 class="conception__title">Концепция «TeamMotion»</h3>
                     <img class="conception__logo" src="./images/conception/logo.svg" alt="">
                     <ol class="conception__list">
-                        
+                        <li class="conception__item"><span class="conception__numbering">01.</span>Каждый бизнес идеально организован для достижения тех 
+                            результатов, которые он имеет, независимо от того, плохие 
+                            они или хорошие</li>
+                        <li class="conception__item"><span class="conception__numbering">02.</span>Для получения новых результатов нужны новые идеи,
+                            новые решения и изменение привычного поведения 
+                            людей в компании</li>
+                        <li class="conception__item"><span class="conception__numbering">03.</span>Устойчивое развитие бизнеса — это люди. Их ежедневные 
+                            действия обеспечивают получение текущих результатов 
+                            и создают основу для будущих результатов</li>
+                        <li class="conception__item"><span class="conception__numbering">04.</span>Для людей важен смысл того, что и зачем они делают каждый день</li>
+                        <li class="conception__item"><span class="conception__numbering">05.</span>Для поддержания жизнеспособности бизнеса необходимо 
+                            согласование организационной модели, стратегии и культуры</li>
+                        <li class="conception__item"><span class="conception__numbering">06.</span>Пробудившийся бизнес ориентирован на активную реализацию 
+                            ожиданий ключевых заинтересованных сторон (сотрудников, 
+                            клиентов, собственников, поставщиков и т.д.)</li>
                     </ol>
                 </div>
                 <div class="col-5">
-                    <img class="conception__img" src="./images/conception/conception1.webp" alt="">
+                    <img src="./images/conception/conception-img.png" alt="" class="conception__img">
                 </div>
             </div>
         </div>
@@ -200,7 +233,7 @@
                 <h3 class="services__title">Основные услуги</h3>
                 <div class="services__row row">
                     <div class="col-8 services__circles">
-                        <div class="services__circle" id="circle-1">
+                        <div class="services__circle active" id="circle-1">
                             <span class="services__text">Стратегический <br>
                                 анализ бизнеса</span>
                             <img src="./images/services/pointer.svg" alt="" class="services__pointer">
@@ -362,13 +395,6 @@
                                     оппонента-«адвоката дьявола»</li>
                             </ul>
                         </div>
-                        <div class="works__col-bottom">
-                            <span class="works__result">результат</span>
-                            <p class="works__text">Приняты взвешенные
-                                решения в отношении
-                                будущего развития бизнеса</p>
-                            <button class="works__btn btnBlue">Начать работу</button>
-                        </div>
                     </div>
                     <div class="col-6 works__col">
                         <div class="works__col-top">
@@ -393,14 +419,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="works__col-bottom">
-                            <span class="works__result">результат</span>
-                            <p class="works__text">Нацеленная на результат <br>
-                                мотивированная <br>
-                                ТОП-команда</p>
-                            <button class="works__btn btnBlue">Начать работу</button>
-                        </div>
                     </div>
+                </div>
+                <div class="works__row row">
                     <div class="col-6 works__col">
                         <div class="works__col-top">
                             <h2 class="works__subtitle">Практикумы обучения действием 
@@ -621,6 +642,19 @@
                 <span  class="footer__phone">+7 (495) 867 95 03</span>
                 <img src="./images/footer/footer-logo.webp" alt="" class="footer__logo">
                 <a href="#hero" class="footer__btn"></a>
+            </div>
+        </div>
+        <div class="footer__call call">
+            <div class="call__form">
+                <h3 class="call__title">Заказать звонок</h3>
+                <h4 class="call__subtitle">Отправьте заявку и мы свяжемся <br>
+                    с вами в ближайшее время</h4>
+                <img class="call__close" src="./images/header/form-x.svg" alt="">
+                <div class="call__inputs row">
+                    <input placeholder="Имя" type="text" class="call__input">
+                    <input placeholder="Телефон" type="text" class="call__input"> 
+                </div>
+                <button class="call__btn btnBlue">Отправить заявку</button>
             </div>
         </div>
     </footer>

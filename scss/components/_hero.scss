@@ -119,8 +119,10 @@
     }
     &__list {
         padding: 20px 0 0 70px;
+        list-style-type: none;
     }
     &__item {
+        position: relative;
         font-size: 16px;
         line-height: 38px;
         color: $color-black;
@@ -132,5 +134,22 @@
             font-weight: 300;
             text-align: center;
         }
+    }
+    &__numbering {
+        position: absolute;
+        font-size: 16px;
+        line-height: 38px;
+        color: $color-blue;
+        font-weight: 300;
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+        background-color: rgba(231,243,255,0);
+        border: 2px solid rgba(0,113,227,0.1);
+        left: -45px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: 3px;
     }
 }

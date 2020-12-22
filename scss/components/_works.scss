@@ -9,9 +9,11 @@
         padding-bottom: 60px;
     }
     &__row {
+        display: flex;
         justify-content: space-between;
     }
     &__col {
+        height: 100%;
         max-width: 531px;
         margin-bottom: 44px;
     }
