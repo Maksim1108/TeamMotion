@@ -1769,7 +1769,7 @@ input {
 }
 
 .services__circle:nth-child(1) {
-  background: url(../../images/services/circle-1.png) no-repeat center;
+  background: url(../images/services/circle-1.png) no-repeat center;
   background-size: cover;
   top: 110px;
   left: 250px;
@@ -1778,7 +1778,7 @@ input {
 .services__circle:nth-child(1)::before {
   position: absolute;
   content: '';
-  background: url(../../images/services/line1.svg) no-repeat;
+  background: url(../images/services/line1.svg) no-repeat;
   width: 372px;
   height: 1px;
   top: 50px;
@@ -1786,7 +1786,7 @@ input {
 }
 
 .services__circle:nth-child(2) {
-  background: url(../../images/services/circle-2.png) no-repeat center;
+  background: url(../images/services/circle-2.png) no-repeat center;
   background-size: cover;
   top: 245px;
   left: 510px;
@@ -1799,7 +1799,7 @@ input {
 .services__circle:nth-child(2)::before {
   position: absolute;
   content: '';
-  background: url(../../images/services/line2.svg) no-repeat;
+  background: url(../images/services/line2.svg) no-repeat;
   width: 180px;
   height: 180px;
   top: -85px;
@@ -1807,7 +1807,7 @@ input {
 }
 
 .services__circle:nth-child(3) {
-  background: url(../../images/services/circle-3.png) no-repeat center;
+  background: url(../images/services/circle-3.png) no-repeat center;
   background-size: cover;
   top: 510px;
   left: 400px;
@@ -1820,7 +1820,7 @@ input {
 .services__circle:nth-child(3)::before {
   position: absolute;
   content: '';
-  background: url(../../images/services/line3.svg) no-repeat;
+  background: url(../images/services/line3.svg) no-repeat;
   width: 227px;
   height: 430px;
   top: -350px;
@@ -1828,7 +1828,7 @@ input {
 }
 
 .services__circle:nth-child(4) {
-  background: url(../../images/services/circle-4.png) no-repeat center;
+  background: url(../images/services/circle-4.png) no-repeat center;
   background-size: cover;
   top: 510px;
   left: 110px;
@@ -1841,7 +1841,7 @@ input {
 .services__circle:nth-child(4)::before {
   position: absolute;
   content: '';
-  background: url(../../images/services/line4.svg) no-repeat;
+  background: url(../images/services/line4.svg) no-repeat;
   width: 520px;
   height: 407px;
   top: -350px;
@@ -1849,7 +1849,7 @@ input {
 }
 
 .services__circle:nth-child(5) {
-  background: url(../../images/services/circle-5.png) no-repeat center;
+  background: url(../images/services/circle-5.png) no-repeat center;
   background-size: cover;
   top: 245px;
 }
@@ -1861,7 +1861,7 @@ input {
 .services__circle:nth-child(5)::before {
   position: absolute;
   content: '';
-  background: url(../../images/services/line5.svg) no-repeat;
+  background: url(../images/services/line5.svg) no-repeat;
   width: 630px;
   height: 143px;
   top: -85px;

@@ -19,14 +19,14 @@
         flex-direction: column-reverse;
         cursor: pointer;
         &:nth-child(1) {
-            background: url(../../images/services/circle-1.png) no-repeat center;
+            background: url(../images/services/circle-1.png) no-repeat center;
             background-size: cover;
             top: 110px;
             left: 250px;
             &::before {
                 position: absolute;
                 content: '';
-                background: url(../../images/services/line1.svg) no-repeat;
+                background: url(../images/services/line1.svg) no-repeat;
                 width: 372px;
                 height: 1px;
                 top: 50px;
@@ -34,7 +34,7 @@
             }
         }
         &:nth-child(2) {
-            background: url(../../images/services/circle-2.png) no-repeat center;
+            background: url(../images/services/circle-2.png) no-repeat center;
             background-size: cover;
             top: 245px;
             left: 510px;
@@ -44,7 +44,7 @@
             &::before {
                 position: absolute;
                 content: '';
-                background: url(../../images/services/line2.svg) no-repeat;
+                background: url(../images/services/line2.svg) no-repeat;
                 width: 180px;
                 height: 180px;
                 top: -85px;
@@ -52,7 +52,7 @@
             }
         }
         &:nth-child(3) {
-            background: url(../../images/services/circle-3.png) no-repeat center;
+            background: url(../images/services/circle-3.png) no-repeat center;
             background-size: cover;
             top: 510px;
             left: 400px;
@@ -62,7 +62,7 @@
             &::before {
                 position: absolute;
                 content: '';
-                background: url(../../images/services/line3.svg) no-repeat;
+                background: url(../images/services/line3.svg) no-repeat;
                 width: 227px;
                 height: 430px;
                 top: -350px;
@@ -70,7 +70,7 @@
             }
         }
         &:nth-child(4) {
-            background: url(../../images/services/circle-4.png) no-repeat center;
+            background: url(../images/services/circle-4.png) no-repeat center;
             background-size: cover;
             top: 510px;
             left: 110px;
@@ -80,7 +80,7 @@
             &::before {
                 position: absolute;
                 content: '';
-                background: url(../../images/services/line4.svg) no-repeat;
+                background: url(../images/services/line4.svg) no-repeat;
                 width: 520px;
                 height: 407px;
                 top: -350px;
@@ -88,7 +88,7 @@
             }
         }
         &:nth-child(5) {
-            background: url(../../images/services/circle-5.png) no-repeat center;
+            background: url(../images/services/circle-5.png) no-repeat center;
             background-size: cover;
             top: 245px;
             .services__pointer {
@@ -97,7 +97,7 @@
             &::before {
                 position: absolute;
                 content: '';
-                background: url(../../images/services/line5.svg) no-repeat;
+                background: url(../images/services/line5.svg) no-repeat;
                 width: 630px;
                 height: 143px;
                 top: -85px;
