@@ -164,6 +164,22 @@ input {
   z-index: 100;
 }
 
+.pb80 {
+  padding-bottom: 79px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
 .header {
   background: #120f10;
   padding: 7px 0;
@@ -990,23 +1006,66 @@ input {
 }
 
 .works__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .works__col {
-  height: 100%;
+  position: relative;
   max-width: 531px;
   margin-bottom: 44px;
+  overflow: hidden;
+}
+
+.works__col:nth-child(1)::before {
+  position: absolute;
+  content: '';
+  background: url(../images/works/works-1.png) no-repeat;
+  width: 300px;
+  height: 300px;
+  bottom: -35px;
+  right: -15px;
+  z-index: 0;
+}
+
+.works__col:nth-child(2)::before {
+  position: absolute;
+  content: '';
+  background: url(../images/works/works-2.png) no-repeat;
+  width: 300px;
+  height: 300px;
+  bottom: -35px;
+  right: -90px;
+  z-index: 0;
+}
+
+.works__col:nth-child(3)::before {
+  position: absolute;
+  content: '';
+  background: url(../images/works/works-3.png) no-repeat;
+  width: 400px;
+  height: 450px;
+  bottom: -137px;
+  right: -170px;
+  z-index: 0;
+}
+
+.works__col:nth-child(4)::before {
+  position: absolute;
+  content: '';
+  background: url(../images/works/works-4.png) no-repeat;
+  width: 400px;
+  height: 400px;
+  bottom: -22px;
+  right: -125px;
+  z-index: 0;
 }
 
 .works__col-top {
   padding-left: 67px;
   background: #fff;
+  overflow: hidden;
 }
 
 .works__subtitle {
@@ -1055,8 +1114,7 @@ input {
 .works__col-bottom {
   padding: 20px 0 0 67px;
   background-color: #d3eeff;
-  background-repeat: no-repeat;
-  background-position: 320px;
+  overflow: hidden;
 }
 
 .works__result {
@@ -1327,6 +1385,7 @@ input {
 }
 
 .articles__btn {
+  margin-top: 65px;
   width: 222px;
   height: 58px;
   font-size: 18px;
@@ -1354,7 +1413,7 @@ input {
   border-radius: 30px;
   background-color: transparent;
   border: 1px solid #0071e3;
-  top: -55px;
+  top: -125px;
   right: 25px;
 }
 

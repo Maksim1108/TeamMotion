@@ -40,16 +40,6 @@ let infoBlock5 = document.getElementById('infoBlock-5')
 let circles = [circle1, circle2, circle3, circle4, circle5]
 let infoBlocks = [infoBlock1, infoBlock2, infoBlock3, infoBlock4, infoBlock5]
 
-circles.forEach((items, index) => items.addEventListener('click', () => {
-    // circles[index].classList.toggle(circles[index].classList == 'active' ? '' : 'active')
-    // infoBlocks[index].classList.toggle('active')
-    if(circles[index].classList == 'active'){
-        circles[index].classList.remove('active')
-    }
-    else{
-        circles[index].classList.add('active')
-    }
-}))
 
 // ===============================================
 

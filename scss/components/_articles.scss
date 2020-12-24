@@ -66,6 +66,7 @@
         }
     }
     &__btn {
+        margin-top: 65px;
         width: 222px;
         height: 58px;
         font-size: 18px;
@@ -89,7 +90,7 @@
         border-radius: 30px;
         background-color: transparent;
         border: 1px solid #0071e3;
-        top: -55px;
+        top: -125px;
         right: 25px;
         &::before {
             position: absolute;
